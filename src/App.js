@@ -1,8 +1,12 @@
+import { ThemeProvider } from "styled-components";
+import { theme } from "./utils/Theme";
+import { MainBody } from "./styles/Global.styled";
+
 function App() {
   return (
-    <div className="App">
-     <h1>hello</h1>
-    </div>
+      <ThemeProvider theme={theme}>
+        <MainBody />
+      </ThemeProvider>
   );
 }
 
