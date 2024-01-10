@@ -23,6 +23,7 @@ export const FlexContainer = styled.div`
   flex-direction: ${({ direction }) => direction};
 
   & > div {
+    max-width: 576px;
     flex: ${({ FullWidthChild }) => FullWidthChild && 1};
   }
 `;
@@ -33,7 +34,7 @@ export const Heading = styled(PaddingContainer)`
   font-size: ${({ size }) => {
     switch (size) {
       case "h1":
-        return "3rem";
+        return "4.5rem";
 
       case "h2":
         return "3rem";
