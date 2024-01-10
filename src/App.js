@@ -4,6 +4,7 @@ import { MainBody, Container } from "./styles/Global.styled";
 
 //import components
 import Showcase from './components/Showcase';
+import MySkills from './components/MySkills'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <MainBody>
           <Container>
             <Showcase/>
+            <MySkills/>
           </Container>
         </MainBody>
       </ThemeProvider>

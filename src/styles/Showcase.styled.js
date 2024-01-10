@@ -25,5 +25,6 @@ export const Particle = styled.img`
     left: ${({left}) => left};
     right: ${({right}) => right};
     bottom: ${({bottom}) => bottom};
-    transform: rotate(${({rotate}) => rotate});    
+    transform: rotate(${({rotate}) => rotate});
+    opacity: 0.5;    
 `

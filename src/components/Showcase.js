@@ -25,7 +25,7 @@ import BackgroundImg from '../assets/particle.png';
 const Showcase = () => {
   return (
     <PaddingContainer id="Home" left="3%" right="10%" top="15%" bottom="10%" >
-      <FlexContainer align="center" fullWidthChild gap="10vw" justify="center">
+      <FlexContainer align="center" fullWidthChild gap="1vw" justify="center">
         {/* --left-content-- */}
         <div>
           <Heading as="h1" size="h2" top="0.3rem">
@@ -37,8 +37,8 @@ const Showcase = () => {
           <ParaText as="p" top="2rem" bottom="4rem">
             I am a frontend web developer based near London, UK and have been
             building websites with React and JavaScript since 2022. I love
-            creating sites and apps that solve real-world problems, while
-            engaging and delighting users.
+            creating sites and apps that solve real-world problems, which
+            engage and delight users.
           </ParaText>
 
           {/* --Social icons-- */}
@@ -55,7 +55,7 @@ const Showcase = () => {
         <FlexContainer>
           <ShowcaseParticleContainer>
             <ShowcaseImageCard>
-              <img src={ShowcaseImg} style={{objectFit: "cover"}} background="#fff" height="300px" width="180px" alt="Natalie Gillam, a female wearing a beige coloured headscarf"/>
+              {/* <img src={ShowcaseImg} style={{objectFit: "cover"}} background="#fff" height="300px" width="180px" alt="Natalie Gillam, a female wearing a beige coloured headscarf"/> */}
             </ShowcaseImageCard>
             <Particle src={BackgroundImg} alt="triangular particle" top="-80px" left="20px" rotate="60deg"/>
             <Particle src={BackgroundImg} alt="triangular particle" top="50px" right="-70px" rotate="0deg"/>
